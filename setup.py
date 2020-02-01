@@ -44,7 +44,7 @@ setup(
     package_data={
         'avpython': package_files('src'),
     },
-    install_requires=['Pillow-SIMD', 'PyQt5', 'numpy'],
+    install_requires=['Pillow', 'PyQt5', 'numpy'],
     entry_points={
         'gui_scripts': [
             'avp = avpython.main:main'
