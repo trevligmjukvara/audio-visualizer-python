@@ -317,7 +317,7 @@ class Main(QtCore.QObject):
 
 if len(sys.argv) > 1:
   # command line mode
-  app = QtWidgets.QApplication(sys.argv, False)
+  app = QtWidgets.QApplication(sys.argv)
   command = Command()
   signal.signal(signal.SIGINT, command.cleanUp)
   sys.exit(app.exec_())

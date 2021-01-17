@@ -15,6 +15,13 @@ You need Python 3, PyQt4, PIL (or Pillow), numpy and the program ffmpeg, which i
 
 Installation
 ------------
+### Manual installation on manjaro
+
+```
+sudo pip install cx_Freeze
+sudo python setup.py install
+```
+
 ### Manual installation on Ubuntu
 * Get all the python stuff: `sudo apt install python3 python3-pyqt4 python3-pil python3-numpy`
 * If you have PyQt5 installed, get pillow (at least version 3.3.0) from pip: `apt install python3-pip; pip3 install pillow`
